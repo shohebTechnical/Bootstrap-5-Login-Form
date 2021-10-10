@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Varta:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varta', sans-serif;
+}
+
+ body {
+    background: #19123b;
+}
+
+.main_div{
+    height: 90vh;
+}
+
+.card {
+    border: none;
+    border-top: 5px solid rgb( 176, 106, 252);
+    background-color: #212042;
+    color: #57557a;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+ .fab  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background:#2a284b ;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: all 0.2s linear;
+}
+.fab:hover {
+    cursor: pointer;
+    background: #aaafff;
+}
+.fa-instagram {
+   color: #fe4164;
+}
+.fa-facebook {
+    color: #1775f1;
+}
+.fa-twitter {
+    color: #56abec;
+}
+
+.division {
+    width: 100%;
+    text-align: center;
+    margin: 30px auto 20px;
+}
+
+.main-heading {
+    font-weight: 500;
+    font-size: 25px;
+}
+.myform {
+    padding: 0 25px 0 35px;
+}
+
+.form-control {
+    border: 1px solid #57557a;
+    border-radius: 2px;
+    background: #212042;
+    /* margin-bottom: 20px; */
+    letter-spacing: 1px;
+}
+.form-control:focus {
+    border: 1px solid #57557a;
+    border-radius: 5px;
+    background: #212042;
+    box-shadow: none;
+    color:#fff;
+    letter-spacing: 1px;
+}
+.bn {
+    text-decoration: underline;
+} 
+.bn:hover {
+    cursor: pointer ;
+}
+.form-cheak-input {
+    width: 1rem !important;
+    height: 1rem !important;
+    margin-top: 5px;
+}
+.btn-primary {
+    background: linear-gradient(135deg,rgba(175,106, 252, 1)39%, rgba(116,17,255,1)100%) !important;
+    border: none;
+    border-radius: 50px;
+}
+ 
+small {
+    color: #f2ceff;
+}
+
+.register {
+    color: #575557;
+    text-decoration: none;
+    
+}
+
+.register:hover {
+    text-decoration: none;
+    color: #fff;
+}
+@media(max-width:768px) {
+    .row{
+            --bs-gutter-x: 0;
+            --bs-gutter-y: 0;
+
+    }
+}
